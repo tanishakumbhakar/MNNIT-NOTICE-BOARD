@@ -15,27 +15,15 @@
 * MySQLi
 
 ## Setup
-Describe how to install / setup your local environement / add link to demo version.
-
-## Code Examples
-Show examples of usage:
-`put-your-code-here`
+Setup the XAMPP environment in your PC. Clone or download the file and then extract it in a new folder under htdocs. Run the index.php file under the new folder created by you in localhost. DATABASE STRUCTURE:The sql code for the database required for this project has been provided.Run the sql code to get the database created.
 
 ## Features
 List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+* Two portals-one for users,another for admins,separate Dashboard for users and admins,options for updating profile and password are also provided.
+* Registration and login system for both users and admins with proper front end and back end authentication
+* Admin can add,activates,deactivates any users.Admins can add new notice and manage old notices.
+* Users can view the notices given my admins.The notices are filtered according to their categories.
 
 To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
-
-## Status
-Project is: _in progress_, _finished_, _no longer continue_ and why?
-
-## Inspiration
-Add here credits. Project inspired by..., based on...
-
-## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+* Notifications on portal and via email whenever a new notice is added by an admin
+* Secured way to avoid fake notices
